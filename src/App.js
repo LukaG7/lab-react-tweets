@@ -1,5 +1,6 @@
 import "./App.css";
 import Tweet from "./components/Tweet";
+import Dog from "./components/Dog";
 
 const tweetsArray = [
   {
@@ -38,6 +39,7 @@ function App() {
   return (
     <div className="App">
       <Tweet />
+      <Dog />
     </div>
   );
 }
